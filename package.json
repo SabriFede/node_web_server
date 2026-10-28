@@ -1,0 +1,20 @@
+{
+  "name": "proecto-web-server",
+  "version": "0.0.1",
+  "description": "Proyecto web server para curso nodejs",
+  "license": "ISC",
+  "author": "Sabri",
+  "type": "commonjs",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "env-var": "^7.5.0",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
